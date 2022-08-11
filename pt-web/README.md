@@ -13,3 +13,13 @@ See [running tests](https://facebook.github.io/create-react-app/docs/running-tes
 Builds the app for production to the `build` folder.\
 
 See [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+# Docker production image
+
+### Build production container
+
+`docker compose build`
+
+### Build and start production container
+
+`docker compose up -d --build`
