@@ -25,3 +25,10 @@ module "ecr" {
   # Variables
   environment = "${var.environment}"
 }
+
+module "iam" {
+  source = "./modules/iam"
+
+  # Variables
+  environment = "${var.environment}"
+}
